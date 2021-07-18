@@ -1,0 +1,126 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    
+	<title>Unify-City Artist Portal.</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+<script type="text/javascript"
+            src="https://code.jquery.com/jquery-1.9.1.js">
+  </script>
+    <script type="text/javascript" 
+            src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  </script>
+    <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+    <link rel="stylesheet"type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <!-- JavaScript for adding 
+     slider for multiple images
+     shown at once-->
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".carousel .item").each(function() {
+                var i = $(this).next();
+                i.length || (i = $(this).siblings(":first")),
+                  i.children(":first-child").clone().appendTo($(this));
+                
+                for (var n = 0; n < 2; n++)(i = i.next()).length ||
+                  (i = $(this).siblings(":first")),
+                  i.children(":first-child").clone().appendTo($(this))
+            })
+        });
+    </script>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2">
+            <h1>
+                Unify
+            </h1>
+            <br>
+            <h2>
+               City Artists Portal
+            </h2> 
+        </div>
+       <ul class="menu">
+    		<li><a href="">Home</a></li>
+            <li><a href="">Artists</a></li>
+    		<li><a href="">About</a></li>
+            <li><a href="C:\Users\kosh\Desktop\Sratch HTML\registration.html">Join Us</a></li>
+    		<li><a href="C:\Users\kosh\Desktop\Sratch HTML\Login.html">Login</a></li>
+		</ul>
+    </div>
+    <div align="center" class="socialbtns">
+        <ul>
+            <li><a href="#" class="fa fa-lg fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-lg fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-lg fa-google-plus"></a></li>
+        </ul>
+    </div>
+   <div class="promoBanner__container">
+  <div class="promoBanner__image col-md-8">
+    <!-- <img src="<?php echo get_template_directory_uri();?>/images/latest_news.jpg"
+        alt="SPURSNEPAL" data-set="true"> -->
+    <img src="./VARANASI.jpg" width="100%" height="350px" alt="" data-set="true">
+  </div>
+
+  <div class="promoBanner__content col-md-4">
+    <a href="#">
+      <h3 class="promoBanner__title" >
+       'ARTISTS OF VARANASI'-The Art You Know But the Faces You Don't.
+      </h3>
+    </a>
+    <p class="promoBanner__description">
+      
+      <br>
+      <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+</div>
+ <div class="promoBanner__container2">
+  <div class="promoBanner__image2 col-md-8">
+    <!-- <img src="<?php echo get_template_directory_uri();?>/images/latest_news.jpg"
+        alt="SPURSNEPAL" data-set="true"> -->
+    <img src="./frontimage.jpg" width="100%" height="350px" alt="" data-set="true">
+  </div>
+
+  <div class="promoBanner__content2 col-md-4">
+    <a href="#">
+      <h4 class="promoBanner__title2" >
+       ABOUT THE ART
+      </h4>
+    </a>
+    <p class="promoBanner__description2">
+      
+      <br>
+      <br>We definitely recommend you to take a stroll to the ghats. And don’t just stay satisfied with the main ones. You will see a lot of cool graffitis and artwork between Assi Ghat and Dashashwamedh Ghat. But go beyond Dashashwamedh. Infact walk beyond Manikarnika towards Raj Ghat. You will see some vibrant and colourful artwork there.
+
+The next one would be the Kachahari Chauraha in Hamrautia locality. This place is full of Varanasi Street art, mainly around the circle area.
+
+Apart from these, just keep your eyes open for Varanasi street art and wall art. They can be found anywhere in the city. We even saw a few in the Cantonment area.
+    </p>
+  </div>
+</div>
+	   <!--  <h3><span>Artists In Your City</span></h3> -->
+<div class="contentbox">   
+  <div  class="buttonBox">
+    <button>Editor'Choice</button>
+    <div class="border"></div>
+    <div class="border"></div>
+  </div>	
+</div>	
+</body>
+</html>

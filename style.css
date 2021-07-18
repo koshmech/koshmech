@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lobster&family=Tourney:wght@200&display=swap');
+*{
+	text-align: right;
+}
+body{
+   margin: 0;
+}
+html{
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.div1{
+  width: 100%;
+  height: 163px;
+}
+.div2{
+  margin-left: 30px;
+}
+.div2>h1{
+  font-family: 'Festive', cursive ;
+  font-size: 5em;
+  float: left;
+}
+.div2>h2{
+  clear: both;
+  width: 300px;
+  height: 20px;
+  text-align: left;
+  float: left;
+  font-size: 2em;
+  font-family: 'Festive', cursive ;
+  margin-left: 30px;  
+}
+ul.menu li>a{
+	color: black;
+	text-align: center !important;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 28px;
+	text-decoration: none;
+	font-weight: 100%;
+   padding-right: 20px;
+   margin-right: 50px;
+}
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+a, a:hover {
+  text-decoration: none;
+  color: blue;
+}
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+.socialbtns>ul{
+  margin-top: -30px;
+  margin-right: 125px;
+  width: fit-content;
+  float: right;
+}
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+  width: 40px;
+    height: 28px;
+  color: #000;
+  background-color: #FFF;
+  /*border: 1px solid #000;*/
+  padding-top: 12px;
+  border-radius: 22px;
+  -moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+  color: blue;
+  /*background-color: #000;*/
+  /*border: 1px solid #000;*/
+}
+div.promoBanner__container {
+  padding-top: 15px;
+  margin-top: 30px;
+  height: 630px;
+  margin-left: -40px;
+}
+
+.promoBanner__image {
+  position: absolute;
+  background-size: cover;
+  height: 630px;
+  background-position: 50%;
+  width: 56.25%;
+}
+.promoBanner__image>img{
+  height: 648px;
+  width: 960px;
+}
+div.promoBanner__content {
+  background-color: white;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+.promoBanner__title{
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: #195f90f7;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: darkgrey;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+.promoBanner__description{
+  text-align: left;
+  font-size: 20px;
+  font-family: 'STIX Two Math', serif;
+  color: grey;
+  margin-top: 10px;
+}
+div.promoBanner__content {
+  color: black !important;
+  margin-top: 154px !important;
+  margin-left: 10px !important;
+  position: absolute;
+  left: 42%;
+  right: 0;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 3px;
+  height: 530px;
+  width: 680px;
+  padding-left: 100px;
+}
+div.promoBanner__container2 {
+  padding-top: 28px;
+  margin-top: 100px;
+}
+div.promoBanner__image2>img{
+  height: 648px;
+  width: 960px;
+}
+.promoBanner__image2 {
+  position: absolute;
+  right: 0;
+  background-size: cover;
+  height: 648px;
+  width: 960px;
+  background-position: 50%;
+  margin-right: 66px;
+  float: right !important;
+}
+
+div.promoBanner__content2 {
+  background-color: white;
+}
+.promoBanner__title2{
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color: darkgrey;
+  font-weight: 150%;
+ font-family: 'Raleway', sans-serif;
+  color: #195f90f7;
+  text-align: left;
+  margin-top: -10px !important;
+
+}
+.promoBanner__description2{
+  text-align: left;
+  font-size: 20px;
+  font-family: 'STIX Two Math', serif;
+  color: grey;
+  margin-top: -50px;
+}
+div.promoBanner__content2 {
+  color: black !important;
+  margin-top: 154px !important;
+  margin-left:500px !important;
+  right: 0;
+  width: 567px;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 34px 22px;
+  height: 494px;
+}
+img{
+  transition: all 1s;
+}
+img:hover{
+  transform: scale(1.1);
+}
+ul.menu li{
+	display: inline;
+  width: 500px;
+  height: 150px;
+  margin: 0 auto !important; 
+}
+h2{
+  font-family: 'Lobster', cursive !important;
+ }
+/*h4>a{
+	color: rgb(172, 172, 58);
+	font-family: FreeMono, monospace;
+	font-size: 200%;
+	font-weight: 100;
+	text-decoration: none;
+	margin-top: */
+}
+.buttonBox{
+  margin: 0 20px 40px;
+  position:relative;
+  max-width: 200px;
+  min-width: 150px;
+  flex: 20%;
+}
+.contentBox{
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+button{
+
+  width:100%;
+  height:80px;
+  position:relative;
+  background:rgba(255, 255, 255, .27);
+  text-transform:uppercase;
+  color:white;
+  font-weight:700;
+  letter-spacing:1px;
+  border:none;
+  font-size:15px;
+  outline:none;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  cursor: pointer;
+  text-align: center;
+}
+.border{
+    position:absolute;
+    background:none;
+    transition:all .5s ease-in-out;
+}
+#funover>.border:nth-of-type(1){
+  top:0;
+  left:0;
+  border-left:1px solid white;
+  border-top:1px solid white;
+  width:30px;
+  height:30px;
+}
+
+#funover>.border:nth-of-type(2){
+  bottom:0;
+  right:0;
+  border-right:1px solid white;
+  border-bottom:1px solid white;
+  width:30px;
+  height:30px;
+}
+
+#funover:hover .border{
+  width:102%;
+  height:105%;
+}
